@@ -1,0 +1,197 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: black;
+
+}
+
+header, footer {
+    display: flex;
+    padding: 55px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 41px;
+}
+
+li {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+
+}
+
+
+nav {
+    background-image: url(./Rectangle\ 2.png);
+    width: 1440px;
+    height: 594px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.relativ {
+    width: 237px;
+    height: 209px;
+    background: #32FB00;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+    position: relative;
+    margin-top: 185px;
+}
+
+.relativ>p {
+    color: red;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 146px;
+
+}
+
+.absolute>p {
+    color: white;
+    text-shadow: 0px 18px 26.5px #FB000040;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: center;
+
+}
+
+.absolute {
+    width: 237px;
+    height: 209px;
+    background: #F70101;
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.atwo {
+    border-radius: 100px;
+    width: 411px;
+    height: 209px;
+}
+
+.athree {
+    left: -100px;
+}
+
+h1 {
+    width: 602px;
+    height: 75px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    box-shadow: 16px 18px 28px 0px #FFFFFF40;
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.45px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 37px;
+}
+
+main>h1 {
+    margin-top: 79px;
+    margin-bottom: 127px;
+}
+
+.card {
+    width: 368px;
+    height: 332px;
+    background: #7B2525;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    gap: 88px;
+    justify-content: center;
+}
+
+.ca1>p {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.ca3>img {
+    width: 312px;
+    height: 143px;
+}
+
+h5 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-shadow: 4px 4px 4px;
+    margin-top: 50px;
+}
+
+.ca1 {
+    display: flex;
+    gap: 68px;
+    padding: 50px;
+    
+    
+}
+
+.ca2 {
+    padding: 50px;
+    display: flex;
+    gap: 87px;
+}
+
+.ca3{
+    display: flex;
+    padding-top:50px;
+    gap: 36px;
+}

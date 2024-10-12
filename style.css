@@ -1,0 +1,165 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.conteiner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+h1 {
+    width: 879px;
+    height: 127px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: left;
+    color: #FFFFFF;
+    text-shadow: 6px 5px 6.5px #FFFFFFF7;
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 126px;
+}
+
+.sayt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.programs {
+    display: flex;
+    margin-bottom: 299px;
+    gap: 90px;
+}
+
+.ins>img {
+    width: 268px;
+    height: 268px;
+    margin-bottom: 23px;
+}
+
+.tel>img {
+    width: 307px;
+    height: 307px;
+    /* margin-bottom: 3px; */
+}
+
+.tiktaki>img {
+    width: 326px;
+    height: 326px;
+    /* margin-bottom:-50px ; */
+}
+
+
+.ins {
+    width: 326px;
+    height: 326px;
+    margin-top: 131px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.Tel {
+    width: 307px;
+    height: 307px;
+    margin-top: 112px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.Tiktaki {
+    width: 326px;
+    height: 326px;
+    margin-top: 102px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+h2 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: center;
+}
+
+#two{
+    padding-right: 40px;
+}
+
+.span1 {
+    width: 104px;
+    height: 104px;
+    top:-30px ;
+    left: 220px;
+
+    background: #FF0000;
+    border-radius: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.span2{
+    width: 104px;
+    height: 104px;
+    top:-10px ;
+    left: 220px;
+
+    background: #FF0000;
+    border-radius: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.span3{
+    width: 104px;
+    height: 104px;
+    top:0px ;
+    left: 220px;
+
+    background: #FF0000;
+    border-radius: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: left;
+    color: #FFFFFF;
+}
